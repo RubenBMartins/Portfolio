@@ -1,0 +1,311 @@
+html, body {
+  font-family: Verdana, sans-serif;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-image: url('visual_ressources/background.svg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.fullbox {
+  width: 90vw; 
+  height: calc(90vh - 50px); 
+  min-width: 600px;  
+  min-height: 400px; 
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  z-index: 1;
+  top: 50px; 
+  left: 50%;
+  transform: translateX(-50%); 
+}
+
+@media screen and (max-width: 600px) {
+  .fullbox {
+    left: 0;
+    transform: none;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+.retro { /* 9 slice scaling*/
+  --scale: 1; 
+  border-style: solid;
+  border-width: calc(110.52px * var(--scale)) 
+                calc(11.43px * var(--scale)) 
+                calc(11.43px * var(--scale)) 
+                calc(11.43px * var(--scale)); 
+  border-color: transparent;
+  
+  border-image-source: url('visual_ressources/FULLWINDOW.svg');
+  border-image-slice: 19.29% 1.26% 2.00% 1.26% fill;
+  border-image-repeat: stretch;
+
+  width: 100%;   
+  height: 100%;  
+  box-sizing: border-box; 
+
+  display: block; 
+  
+  overflow-y: auto;  /* scrollbar for long texts in box */
+  max-height: 100%;  /* text contained in box */
+  padding: 0px 25px; 
+}
+
+.retro p {
+  text-align: left;
+  text-wrap: wrap;
+  
+  /* Containing the text in the window */
+  padding: 20px 30px 30px 20px; 
+}
+.grass0 {
+    background-image: url('visual_ressources/grassbackbg.svg');
+    width: 100vw;
+    height: 580px;
+    background-size: auto;
+    background-repeat: repeat-x;
+    position: fixed;
+    z-index: 0;
+    background-position-x: center;
+    bottom: 0;
+    animation: 10s ease-in-out 0s infinite alternate skew2;
+    transform-origin: bottom center; 
+}
+.grass1 {
+    background-image: url('visual_ressources/grassback.svg');
+    width: 100vw;
+    height: 580px;
+    background-size: auto;
+    background-repeat: repeat-x;
+    position: fixed;
+    z-index: 0;
+    background-position-x: center;
+    bottom: 0;
+    animation: 7s ease-in-out 0s infinite alternate skew;
+    transform-origin: bottom; 
+    pointer-events: none;
+}
+.grass2 {
+    background-image: url('visual_ressources/grassmed.svg');
+    width: 100vw;
+    height: 580px;
+    background-size: auto;
+    background-repeat: repeat-x;
+    position: fixed;
+    z-index: 3;
+    background-position-x: center;
+    bottom: 0;
+    animation: 8s ease-in-out 0s infinite alternate skew;
+    transform-origin: bottom center; 
+    pointer-events: none;
+}
+.grass3 {
+    background-image: url('visual_ressources/grassfront.svg');
+    width: 100vw;
+    height: 580px;
+    background-size: auto;
+    background-repeat: repeat-x;
+    position: fixed;
+    z-index: 4;
+    background-position-x: center;
+    bottom: 0;
+    animation: 9s ease-in-out 0s infinite alternate skew;
+    transform-origin: bottom center; 
+    pointer-events: none;
+}
+
+@keyframes skew {
+  from {
+    transform: skew(20deg) translateY(75%);
+  }
+  to {
+    transform: skew(-20deg) translateY(75%);
+  }
+}
+
+@keyframes skew2 {
+  from {
+    transform: skew(20deg) translateY(60%);
+  }
+  to {
+    transform: skew(-20deg) translateY(60%);
+  }
+}
+
+.socalledheader {
+  margin: 10px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 20px;
+  align-items: center;
+}
+
+.myfaceis {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.mynameis {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+@media screen and (max-width: 1024px) {
+  .iconimage {
+    transform: scale(2.5) translateY(30%) translateX(30%);
+  }
+  .myfaceis {
+    height: 170px;
+    width: 170px;
+  }
+  .mynameis {
+    transform: none; 
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .iconimage {
+    transform: scale(3) translateY(35%) translateX(35%);
+  }
+  .myfaceis {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media screen and (max-height: 800px) {
+  .grass3 {
+    display: none;
+  }
+  .grass2 {
+    display: none;
+  }
+}
+/*
+Source - https://stackoverflow.com/a/57529880
+Posted by IronFlare, modified by community. See post 'Timeline' for change history
+Retrieved 2026-09-25, License - CC BY-SA 4.0
+*/
+.bgclouds {
+  background-image: url('visual_ressources/bgclouds.svg');
+  background-repeat: repeat-x;
+  background-size: 1000px auto; 
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  pointer-events: none;
+  animation: marquee 60s linear infinite; 
+}
+
+@keyframes marquee {
+  from {
+    background-position-x: 0;
+  }
+  to {
+    background-position-x: -1000px; 
+  }
+}
+h1 {
+   font-size: calc(100% + 2vw)
+}
+
+.flexcontact {
+  display:flex;
+  height: 100px;
+  gap: 10px;
+  margin-top: 225px;
+  justify-content: center;
+  gap: 200px;
+}
+div {
+  padding: 10px
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 30px
+}
+ hr {
+  border: none;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.contact-inputs {
+  padding-left: 12px;
+  width: 100%;
+  font-size: 20px;
+  height: 50px;
+  border: none;
+  outline: solid;
+  font-weight: 500;
+  border-radius: 12px;
+}
+.contact textarea {
+  height: 150px;
+  padding-top: 12px;
+  border: none;
+  outline: solid;
+  font-weight: 500;
+  border-radius: 12px;
+}
+.contact-inputs:focus{
+  border: 2px solid #1896ffff
+}
+.contact-inputs::placeholder {
+  color: hsl(0, 0%, 60%)
+}
+.contact button {
+  display: flex;
+  align-items: center;
+  padding: 15px 15px;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  gap: 12px;
+  border: none;
+  border-radius: 12px;
+  background-color: black;
+  margin-bottom: 20px;
+  background:linear-gradient(0deg,#30ff18ff,#00d109ff);
+  cursor: pointer;
+  outline: solid;
+}
+.contact button img {
+  height: 50px;
+}
+/*
+div.testings {
+    position: fixed;
+    transform: translateX(-200px) translateY(-100px);
+    bottom: 0;
+    display: hidden;  
+}
+
+Not complete yet, but I'll be keeping this in mind for the future of the website
+*/
+
+.invis {
+  display: none;
+}
+
+.navbar {
+  display: absolute;
+  transform: translateX(-110px);
+}
