@@ -3,7 +3,7 @@ html, body {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background-image: url('visual_ressources/background.svg');
+  background-image: url('../1-visual_ressources/background.svg');
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
@@ -40,7 +40,7 @@ html, body {
                 calc(11.43px * var(--scale)); 
   border-color: transparent;
   
-  border-image-source: url('visual_ressources/FULLWINDOW.svg');
+  border-image-source: url('../1-visual_ressources/FULLWINDOW.svg');
   border-image-slice: 19.29% 1.26% 2.00% 1.26% fill;
   border-image-repeat: stretch;
 
@@ -63,7 +63,7 @@ html, body {
   padding: 20px 30px 30px 20px; 
 }
 .grass0 {
-    background-image: url('visual_ressources/grassbackbg.svg');
+    background-image: url('../1-visual_ressources/grassbackbg.svg');
     width: 100vw;
     height: 580px;
     background-size: auto;
@@ -76,7 +76,7 @@ html, body {
     transform-origin: bottom center; 
 }
 .grass1 {
-    background-image: url('visual_ressources/grassback.svg');
+    background-image: url('../1-visual_ressources/grassback.svg');
     width: 100vw;
     height: 580px;
     background-size: auto;
@@ -90,7 +90,7 @@ html, body {
     pointer-events: none;
 }
 .grass2 {
-    background-image: url('visual_ressources/grassmed.svg');
+    background-image: url('../1-visual_ressources/grassmed.svg');
     width: 100vw;
     height: 580px;
     background-size: auto;
@@ -104,7 +104,7 @@ html, body {
     pointer-events: none;
 }
 .grass3 {
-    background-image: url('visual_ressources/grassfront.svg');
+    background-image: url('../1-visual_ressources/grassfront.svg');
     width: 100vw;
     height: 580px;
     background-size: auto;
@@ -191,7 +191,7 @@ Posted by IronFlare, modified by community. See post 'Timeline' for change histo
 Retrieved 2026-09-25, License - CC BY-SA 4.0
 */
 .bgclouds {
-  background-image: url('visual_ressources/bgclouds.svg');
+  background-image: url('../1-visual_ressources/bgclouds.svg');
   background-repeat: repeat-x;
   background-size: 1000px auto; 
 
