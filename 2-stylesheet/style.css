@@ -337,3 +337,30 @@ Not complete yet, but I'll be keeping this in mind for the future of the website
   gap: 10%;
   width: 100%;
 }
+
+@media (orientation: portrait) {
+  .navpres1 {
+    content: url("../1-visual_ressources/nav1g2.svg");
+  }
+  .navpres2 {
+    content: url("../1-visual_ressources/nav1b2.svg");
+  }
+  .navbg1 {
+    content: url("../1-visual_ressources/nav2g2.svg");
+  }
+  .navbg2 {
+    content: url("../1-visual_ressources/nav2b2.svg");
+  }
+  .navproj1 {
+    content: url("../1-visual_ressources/nav3g2.svg");
+  }
+  .navproj2 {
+    content: url("../1-visual_ressources/nav3b2.svg");
+  }
+  .navcontact1 {
+    content: url("../1-visual_ressources/nav4g2.svg");
+  }
+  .navcontact2 {
+    content: url("../1-visual_ressources/nav4b2.svg");
+  }
+}
