@@ -307,25 +307,28 @@ Not complete yet, but I'll be keeping this in mind for the future of the website
 .navbar {
   position: sticky;
   top: 0;
-
   transform: translateX(0px);
-
   width: 15vw;
   height: 100%;
+    --scale: 1; 
+  border-style: solid;
+  border-width: calc(11.43px * var(--scale)) 
+                calc(11.43px * var(--scale)) 
+                calc(11.43px * var(--scale)) 
+                calc(11.43px * var(--scale)); 
+  border-color: transparent;
+    border-image-source: url('../1-visual_ressources/NAVWINDOW.svg');
+  border-image-slice: 2.00% 1.26% 2.00% 1.26% fill;
+  border-image-repeat: stretch;
   box-sizing: border-box;
-
-  background-color: #DDFAFFFF;
   flex-shrink: 0;
   z-index: 100;
-
-  border: 5px solid;
-  border-radius: 15px;
   overflow-y: auto;
   overflow-x: hidden;
-
   display: flex;
   padding: 20px;
 }
+
 
 .navbar nav {
   justify-content: center;
