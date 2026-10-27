@@ -332,11 +332,12 @@ Not complete yet, but I'll be keeping this in mind for the future of the website
 
 
 .navbar nav {
-  justify-content: center;
   display: flex;
   flex-direction: column;
-  gap: 10%;
+  justify-content: center;
   width: 100%;
+  height: 100%; 
+  gap: 5vh;
 }
 
 @media (orientation: portrait) {
@@ -363,5 +364,42 @@ Not complete yet, but I'll be keeping this in mind for the future of the website
   }
   .navcontact2 {
     content: url("../1-visual_ressources/nav4b2.svg");
+  }
+}
+
+@media (max-height: 299px) {
+  .navbar nav {
+    gap:0;
+  } 
+}
+
+.squarification {
+  container-type: inline-size;
+  container-name: zone-image;
+}
+@container zone-image (max-width: 99px) {
+  .zoomsmall .navpres1 {
+    transform: scale(125%);
+  }
+  .zoomsmall .navpres2 {
+    transform: scale(125%);
+  }
+  .zoomsmall .navbg1 {
+    transform: scale(125%);
+  }
+  .zoomsmall .navbg2 {
+    transform: scale(125%);
+  }
+  .zoomsmall .navproj1 {
+    transform: scale(125%);
+  }
+  .zoomsmall .navproj2 {
+    transform: scale(125%);
+  }
+  .zoomsmall .navcontact1 {
+    transform: scale(125%);
+  }
+  .zoomsmall .navcontact2 {
+    transform: scale(125%);
   }
 }
