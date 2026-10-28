@@ -290,17 +290,6 @@ div {
 .contact button img {
   height: 50px;
 }
-/*
-div.testings {
-    position: fixed;
-    transform: translateX(-200px) translateY(-100px);
-    bottom: 0;
-    display: hidden;  
-}
-
-Not complete yet, but I'll be keeping this in mind for the future of the website
-*/
-
 .invis {
   display: none;
 }
