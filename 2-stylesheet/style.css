@@ -290,16 +290,6 @@ div {
 .contact button img {
   height: 50px;
 }
-/*
-div.testings {
-    position: fixed;
-    transform: translateX(-200px) translateY(-100px);
-    bottom: 0;
-    display: hidden;  
-}
-
-Not complete yet, but I'll be keeping this in mind for the future of the website
-*/
 
 .invis {
   display: none;
@@ -421,9 +411,9 @@ Not complete yet, but I'll be keeping this in mind for the future of the website
   backdrop-filter: blur(0px);
 
   transition: 
-    opacity 1s ease,
-    backdrop-filter 1s ease,
-    background-color 1s ease;
+    opacity 1s ease-out,
+    backdrop-filter 1s ease-out,
+    background-color 1s ease-out;
 }
 
 .blur-overlay.active {
@@ -463,7 +453,7 @@ Not complete yet, but I'll be keeping this in mind for the future of the website
   animation: 1s ease-out 0s 1 alternate popup;
 }
 .project-info.inactive {
-  animation: 1s ease-out 0s 1 alternate popdown;
+  animation: 1s ease-in 0s 1 alternate popdown;
 }
 
 @keyframes popup {
@@ -480,7 +470,7 @@ Not complete yet, but I'll be keeping this in mind for the future of the website
     transform: translateX(-50%) translateY(-50%);
   }
   to {
-    transform: translateX(-50%) translateY(500%);
+    transform: translateX(-50%) translateY(200%);
   }
 }
 
@@ -489,7 +479,7 @@ Not complete yet, but I'll be keeping this in mind for the future of the website
 }
 
 .project-info.posdown {
-  transform: translateX(-50%) translateY(500%);
+  transform: translateX(-50%) translateY(200%);
 }
 
 .folderhierarchy {
