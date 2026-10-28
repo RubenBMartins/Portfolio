@@ -418,7 +418,7 @@ Not complete yet, but I'll be keeping this in mind for the future of the website
   pointer-events: none;
   opacity: 0;
   z-index: 10; 
-  background-color: rgba(1, 154, 243, 0);
+  background-color: rgba(1, 114, 243, 0);
   backdrop-filter: blur(0px);
 
   transition: 
@@ -430,5 +430,5 @@ Not complete yet, but I'll be keeping this in mind for the future of the website
 .blur-overlay.active {
   opacity: 1;
   backdrop-filter: blur(10px); 
-  background-color: rgba(1, 154, 243, 0.2);
+  background-color: rgba(1, 114, 243, 0.2);
 }
