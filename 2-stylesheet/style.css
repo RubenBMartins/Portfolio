@@ -458,7 +458,7 @@ div {
 
 @keyframes popup {
   from {
-    transform: translateX(-50%) translateY(500%);
+    transform: translateX(-50%) translateY(200%);
   }
   to {
     transform: translateX(-50%) translateY(-50%);

@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                                                         Programming, 3D modeling, workshop interventions, this project has it all.<br><br>
                                                                         This production line is divided in two machines.<br><br>
                                                                         <h2>Candela 1</h2>
-                                                                        This machine takes paraffin, optional colored dyes, and compresses it into a candle shape
+                                                                        This machine takes paraffin, optional colored dyes, and compresses it into a candle shape.
                                                                         <h2>Candela 2</h2>
                                                                         This machine takes the solidified paraffin, inserts the wick, the aluminum cover, and delivers it inside boxes.`;
                         break;
