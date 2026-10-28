@@ -4,15 +4,16 @@
 <title>> reachOut</title>
 <link rel="icon" type="image/x-icon" href="../1-visual_ressources/icon.svg">
 <link href="../2-stylesheet/style.css" rel="stylesheet">
+<script defer src="../3-javascript/folderhover.js"></script>
 <body>
   <header>
   </header>
   <div class="fullbox">
     <div class="navbar">
       <nav>
-        <div class="zoomsmall"><a href="../index.html"><img class="navpres1" src="../1-visual_ressources/nav1g.svg" alt="Presentation" style="width:100%;"></a></div>
-        <div class="zoomsmall"><a href="../background/background.html"><img class="navbg1" src="../1-visual_ressources/nav2g.svg" alt="Background" style="width:100%;"></a></div>
-        <div class="zoomsmall"><a href="../projects/projects.html"><img class="navproj1" src="../1-visual_ressources/nav3g.svg" alt="Projects" style="width:100%;"></a></div>
+        <div id="button1" class="zoomsmall"><a href="../index.html"><img class="navpres1" src="../1-visual_ressources/nav1g.svg" alt="Presentation" style="width:100%;"></a></div>
+        <div id="button2" class="zoomsmall"><a href="../background/background.html"><img class="navbg1" src="../1-visual_ressources/nav2g.svg" alt="Background" style="width:100%;"></a></div>
+        <div id="button3" class="zoomsmall"><a href="../projects/projects.html"><img class="navproj1" src="../1-visual_ressources/nav3g.svg" alt="Projects" style="width:100%;"></a></div>
         <div class="zoomsmall"><img class="navcontact2" src="../1-visual_ressources/nav4b.svg" alt="Contact (you are here)" style="width:100%;"></div>
       </nav>
     </div>
@@ -45,7 +46,7 @@
               <input type="text" name="name" placeholder="Your name :" class="contact-inputs" required>
               <input type="email" name="email" placeholder="Your email : " class="contact-inputs" required>
               <textarea name="message" placeholder="Your message : " class="contact-inputs" required></textarea>
-              <button type="submit"><img src="../1-visual_ressources/submitg.svg" alt="Submit"></button>
+              <button id="button5" type="submit" class="zoomsmall"><img src="../1-visual_ressources/submitg.svg" alt="Submit"></button>
             </form>
           </div>
         </div>
