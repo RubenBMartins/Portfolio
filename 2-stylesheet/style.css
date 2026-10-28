@@ -491,3 +491,25 @@ Not complete yet, but I'll be keeping this in mind for the future of the website
 .project-info.posdown {
   transform: translateX(-50%) translateY(500%);
 }
+
+.folderhierarchy {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.classtitle {
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.classline {   
+  flex-grow: 1;
+  width: auto;
+  border: none;
+  height: 2px;
+  background-color: #000000;
+  margin: 0;
+}
