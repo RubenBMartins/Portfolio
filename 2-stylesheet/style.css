@@ -323,7 +323,7 @@ Not complete yet, but I'll be keeping this in mind for the future of the website
   border-image-repeat: stretch;
   box-sizing: border-box;
   flex-shrink: 0;
-  z-index: 100;
+  z-index: 4;
   overflow-y: auto;
   overflow-x: hidden;
   display: flex;
@@ -407,4 +407,28 @@ Not complete yet, but I'll be keeping this in mind for the future of the website
 .tablesize{
   width: 20%;
   text-align: center;
+}
+
+.blur-overlay {
+  position: fixed;
+  top: -100vh;
+  left: -100vw;
+  width: 200vw;
+  height: 200vh;
+  pointer-events: none;
+  opacity: 0;
+  z-index: 10; 
+  background-color: rgba(1, 154, 243, 0);
+  backdrop-filter: blur(0px);
+
+  transition: 
+    opacity 1s ease,
+    backdrop-filter 1s ease,
+    background-color 1s ease;
+}
+
+.blur-overlay.active {
+  opacity: 1;
+  backdrop-filter: blur(10px); 
+  background-color: rgba(1, 154, 243, 0.2);
 }
