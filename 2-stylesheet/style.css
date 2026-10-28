@@ -458,19 +458,19 @@ div {
 
 @keyframes popup {
   from {
-    transform: translateX(-50%) translateY(200%);
+    transform: translateX(-50%) translateY(200%) scale(-100%) rotate(0deg);
   }
   to {
-    transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%) scale(100%) rotate(360deg);
   }
 }
 
 @keyframes popdown {
   from {
-    transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%) scale(100%) rotate(0deg);
   }
   to {
-    transform: translateX(-50%) translateY(200%);
+    transform: translateX(-50%) translateY(200%) scale(-100%) rotate(360deg);
   }
 }
 
