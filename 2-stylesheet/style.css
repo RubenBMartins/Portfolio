@@ -430,6 +430,7 @@ Not complete yet, but I'll be keeping this in mind for the future of the website
   opacity: 1;
   backdrop-filter: blur(10px); 
   background-color: rgba(1, 114, 243, 0.2);
+  pointer-events: all;
 }
 
 .project-info {
