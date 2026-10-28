@@ -362,37 +362,6 @@ div {
   } 
 }
 
-.zoomsmall {
-  container-type: inline-size;
-  container-name: zone-image;
-}
-@container zone-image (max-width: 99px) {
-  .zoomsmall .navpres1 {
-    transform: scale(125%);
-  }
-  .zoomsmall .navpres2 {
-    transform: scale(125%);
-  }
-  .zoomsmall .navbg1 {
-    transform: scale(125%);
-  }
-  .zoomsmall .navbg2 {
-    transform: scale(125%);
-  }
-  .zoomsmall .navproj1 {
-    transform: scale(125%);
-  }
-  .zoomsmall .navproj2 {
-    transform: scale(125%);
-  }
-  .zoomsmall .navcontact1 {
-    transform: scale(125%);
-  }
-  .zoomsmall .navcontact2 {
-    transform: scale(125%);
-  }
-}
-
 .tablesize{
   width: 20%;
   text-align: center;
@@ -461,7 +430,7 @@ div {
     transform: translateX(-50%) translateY(200%) scale(-100%) rotate(0deg);
   }
   to {
-    transform: translateX(-50%) translateY(-50%) scale(100%) rotate(360deg);
+    transform: translateX(-50%) translateY(-50%) scale(100%) rotate(-360deg);
   }
 }
 
