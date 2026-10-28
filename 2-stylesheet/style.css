@@ -290,6 +290,17 @@ div {
 .contact button img {
   height: 50px;
 }
+/*
+div.testings {
+    position: fixed;
+    transform: translateX(-200px) translateY(-100px);
+    bottom: 0;
+    display: hidden;  
+}
+
+Not complete yet, but I'll be keeping this in mind for the future of the website
+*/
+
 .invis {
   display: none;
 }
@@ -353,15 +364,6 @@ div {
   .navcontact2 {
     content: url("../1-visual_ressources/nav4b2.svg");
   }
-  .tablestyle {
-    width: 10% !important; 
-  }
-  .tablestyle {
-    width: 50%;
-  }
-  .tablesize {
-    width: 10% !important;
-  }
 }
 
 @media (max-height: 299px) {
@@ -401,22 +403,9 @@ div {
   }
 }
 
-.tablestyle {
-  width: 100%; 
-  border-collapse: collapse;
-}
-
-.tablesize {
+.tablesize{
   width: 20%;
   text-align: center;
-  vertical-align: top;
-}
-.tablesize img {
-  width: 100%;
-  height: auto;
-  aspect-ratio: 1 / 1;
-  object-fit: contain;
-  display: block;
 }
 
 .blur-overlay {
@@ -525,3 +514,7 @@ div {
   margin: 0;
 }
 
+.tablestyle {
+  width: 100%; 
+  border-collapse: collapse;
+}
