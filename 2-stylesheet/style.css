@@ -18,9 +18,9 @@ html, body {
   flex-direction: row;
   position: absolute;
   z-index: 1;
-  top: 50px; 
+  top: 50%; 
   left: 50%;
-  transform: translateX(-50%); 
+  transform: translateX(-50%) translateY(-50%); 
 }
 
 @media screen and (max-width: 600px) {
