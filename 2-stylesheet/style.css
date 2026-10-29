@@ -376,15 +376,15 @@ div {
 
 .blur-overlay {
   position: fixed;
-  top: -100vh;
-  left: -100vw;
   width: 200vw;
   height: 200vh;
   pointer-events: none;
   opacity: 0;
-  z-index: 10; 
+  z-index: 2; 
   background-color: rgba(1, 114, 243, 0);
   backdrop-filter: blur(0px);
+  transform: translateX(-50%) translateY(-50%);
+  overflow: hidden;
 
   transition: 
     opacity 1s ease-out,
@@ -418,7 +418,7 @@ div {
   border-image-repeat: stretch;
   box-sizing: border-box;
   flex-shrink: 0;
-  z-index: 2;
+  z-index: 3;
   overflow-y: auto;
   overflow-x: hidden;
   padding: 20px;
