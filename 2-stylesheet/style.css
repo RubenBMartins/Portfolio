@@ -459,12 +459,13 @@ div {
 
 .classline {   
   flex-grow: 1;
-  width: auto;
   border: none;
   height: 2px;
   background-color: #000000;
   margin: 0;
+  padding: 0;
 }
+
 
 .tablestyle {
   width: 100%; 
