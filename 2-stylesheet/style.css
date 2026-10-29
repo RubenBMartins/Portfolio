@@ -355,9 +355,23 @@ div {
   } 
 }
 
-.tablesize{
+.tablestyle {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.tablesize {
   width: 20%;
   text-align: center;
+  padding: 5px;
+}
+
+.tablesize img {
+  width: 100%;
+  max-width: 80px;
+  height: auto;
+  display: inline-block;
 }
 
 .blur-overlay {
@@ -466,11 +480,4 @@ div {
   margin: 0 !important;
   padding: 0 !important;
   opacity: 1 !important;
-}
-
-
-
-.tablestyle {
-  width: 100%; 
-  border-collapse: collapse;
 }
