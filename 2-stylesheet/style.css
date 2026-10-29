@@ -455,16 +455,19 @@ div {
 .classtitle {
   white-space: nowrap;
   font-weight: bold;
+  font-size: 1.25rem !important;
 }
 
 .classline {   
   flex-grow: 1;
-  border: none;
-  height: 2px;
-  background-color: #000000;
-  margin: 0;
-  padding: 0;
+  border: none !important;
+  height: 2px !important;
+  background-color: #000000 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  opacity: 1 !important;
 }
+
 
 
 .tablestyle {
