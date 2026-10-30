@@ -52,9 +52,16 @@ document.addEventListener("DOMContentLoaded", function() {
                                                                         `;
                         break;
                     case "P2":
-                        document.getElementById("projname").innerHTML = "<h1>Robotic Hand</h1>";
-                        document.getElementById("projdesc").innerHTML = `<p><b>This project consists of writing a program to control a robotic hand, via Arduino, with a digital interface built in Java!</b></p>
-                                                                        The intent of this project was to help people with motor disabilities to control a robotic hand with a digital interface on mobile to be able to play chess.`;
+                        document.getElementById("projname").innerHTML = "<h1>Robotic Arm</h1>";
+                        document.getElementById("projdesc").innerHTML = `<p><b>This project consists of writing a program to control a robotic arm, via Arduino, with a digital interface built in Java!</b></p>
+                                                                        <p>The intent of this project was to help people with motor disabilities to control a robotic hand with a digital interface on mobile to be able to play chess.</p>
+                                                                        <h2>Programming the Arduino board</h2>
+                                                                        <h3>Motor functions<h3>
+                                                                        <p>We were given some basic code to start off from, documentation, and free access to the internet, in order to help with coding. Then, by looking at the board itself, knowing what output on the board handles which servomotor, I was able to make the robotic arm move around.<p>
+                                                                        <p>I had to ensure that the servomotors couldn't reach certain angles that would cause physical damage to the articulations</p>
+                                                                        <h2>Physical maintenance</h2>
+                                                                        <p>The robotic arm required physical maintenance in order to function properly.</p>
+                                                                        <p>In the state it was given to us, some of the servomotors were mounted the wrong way around, which led the arm to have decreased mobility ranges, and a generally unpractical design.</p>`;
                         document.getElementById("projfoot").innerHTML = `
                                                                         <table class="tablestyle">
                                                                             <tr>
