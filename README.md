@@ -3,7 +3,7 @@
 This is my **portfolio**, a website in which I will submit projects of mine, and introduce myself, as well as how I got here!
 
 # Link to the website;
-https://rubenbmartins.github.io/Portfolio/index.html
+https://rubenbmartins.github.io/Portfolio/
 
 # About the project;
 The portfolio was built with a combination of **HTML**, **CSS**, and **JavaScript**, with **individual HTML pages**, a **shared stylesheet**, and **JavaScript scripts** bringing interactivity to certain elements.
@@ -26,6 +26,7 @@ Contact
 # The constraints and issues;
 For a website, there is one very important feature, that being **responsiveness**.
 > Making a website responsive entails making sure it displays well no matter the screen resolution, which was no easy task. Past commits will show issues related to tables causing issues with responsiveness due to imposed icon sizes. Or issues with pseudo-window being partially outside of the screen, which in some contexts will still be true, as I preferred the contents of the window to stay visible, and not be squished into unreadable pixels.
+
 Another constraint given was **time**, and overall **availability**.
 > Projects are handled simulteanously, as such, it wouldn't be reasonable to focus on only one, to leave out the rest. As such, this project was running on a time limit, which I'd like to think I managed well enough to have good content in this Portfolio, despite that.
 
