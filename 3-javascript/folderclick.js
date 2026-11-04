@@ -138,10 +138,28 @@ document.addEventListener("DOMContentLoaded", function() {
                                                                         <table class="tablestyle">
                                                                             <tr>
                                                                                 <th class="tablesize">
+                                                                                    <a href="candela/candela.html"><img class="next" src="../1-visual_ressources/continueIcon.svg" alt="Click to access detailed page"></a>
+                                                                                </th>
+                                                                                <th class="tablesize">
+                                                                                    <a href="../documents/candela-document.pdf"><img class="pdf" src="../1-visual_ressources/pdfIcon.svg" alt="Click to view pdf"></a>
+                                                                                </th>
+                                                                                <th class="tablesize">
+                                                                                    <img class="ppt" src="../1-visual_ressources/pptIcon.svg" alt="Click to view slide presentation">
+                                                                                </th>
+                                                                                <th class="tablesize">
                                                                                     <img class="exitButton" src="../1-visual_ressources/xIcon.svg" alt="Click to close project window">
                                                                                 </th>
                                                                             </tr>
                                                                             <tr>
+                                                                                <th class="tablesize">
+                                                                                    Details
+                                                                                </th>
+                                                                                <th class="tablesize">
+                                                                                    Project document
+                                                                                </th>
+                                                                                <th class="tablesize">
+                                                                                    Project slide
+                                                                                </th>
                                                                                 <th class="tablesize">
                                                                                     Exit
                                                                                 </th>

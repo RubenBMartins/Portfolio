@@ -485,3 +485,7 @@ div {
 .exitButton {
   cursor: pointer;
 }
+
+.previous {
+    transform: scaleX(-1)
+}
