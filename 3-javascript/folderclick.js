@@ -120,7 +120,14 @@ document.addEventListener("DOMContentLoaded", function() {
                         break;
                     case "P4":
                         document.getElementById("projname").innerHTML = "<h1>Candela Production Line</h1>";
-                        document.getElementById("projdesc").innerHTML = `<p><b>This project consists of retrofitting a production line by Astriane, the Candela production line!</b></p>
+                        document.getElementById("projdesc").innerHTML = `
+                                                                        <div class="media" style="display: flex; flex-direction: column;">
+                                                                            <div class="picturewindow">
+                                                                                <img src="../1-visual_ressources/Maquette 2.png" alt="Photo de la machine Candela 1">
+                                                                                <img src="../1-visual_ressources/V14.png" alt="Photo de la machine Candela 2">
+                                                                            </div>
+                                                                        </div>
+                                                                        <p><b>This project consists of retrofitting a production line by Astriane, the Candela production line!</b></p>
                                                                         <p>Programming, 3D modeling, workshop interventions, this project has it all.</p>
                                                                         <p>This production line is divided in two machines, both of which I've worked on to some extent, as it was a class project.</p>
                                                                         <h2>Candela 1</h2>
