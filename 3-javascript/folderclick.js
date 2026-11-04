@@ -121,12 +121,24 @@ document.addEventListener("DOMContentLoaded", function() {
                     case "P4":
                         document.getElementById("projname").innerHTML = "<h1>Candela Production Line</h1>";
                         document.getElementById("projdesc").innerHTML = `
-                                                                        <div class="media" style="display: flex; flex-direction: column;">
-                                                                            <div class="picturewindow">
-                                                                                <img src="../1-visual_ressources/Maquette 2.png" alt="Photo de la machine Candela 1">
-                                                                                <img src="../1-visual_ressources/V14.png" alt="Photo de la machine Candela 2">
-                                                                            </div>
-                                                                        </div>
+                                                                        <table class="tablestyle">
+                                                                            <tr>
+                                                                                <th class="tablesizecandela">
+                                                                                    <img id="P1" class="folder" src="../1-visual_ressources/candela1.jpg" alt="Machine Candela 1">
+                                                                                </th>
+                                                                                <th class="tablesizecandela">
+                                                                                    <img id="P1" class="folder" src="../1-visual_ressources/candela2.jpg" alt="Machine Candela 2">
+                                                                                </th>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th class="tablesizecandela">
+                                                                                    Candela 1
+                                                                                </th>
+                                                                                <th class="tablesizecandela">
+                                                                                    Candela 2
+                                                                                </th>
+                                                                            </tr>
+                                                                        </table>
                                                                         <p><b>This project consists of retrofitting a production line by Astriane, the Candela production line!</b></p>
                                                                         <p>Programming, 3D modeling, workshop interventions, this project has it all.</p>
                                                                         <p>This production line is divided in two machines, both of which I've worked on to some extent, as it was a class project.</p>
