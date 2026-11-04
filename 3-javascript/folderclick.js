@@ -126,7 +126,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                                                         <h2>Candela 1</h2>
                                                                         <p>This machine takes paraffin, optional colored dyes, and compresses it into a candle shape.</p>
                                                                         <h2>Candela 2</h2>
-                                                                        <p>This machine takes the solidified paraffin, inserts the wick, the aluminum cover, and delivers it inside boxes.</p>
+                                                                        <p>This machine takes the solidified paraffin, inserts the wick, the aluminum cover, and delivers it inside boxes thanks to an unstacker.</p>
                                                                         <h2>The project</h2>
                                                                         <h3>Workshop</h3>
                                                                         <p>Disassembling, reassembling, getting measures, and placing new pieces, required physical work at the workshop. This aspect was crutial to getting the proper data for 3D modeling mock-ups of each machine from the production line.</p>
@@ -144,7 +144,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                                                                     <a href="../documents/candela-document.pdf"><img class="pdf" src="../1-visual_ressources/pdfIcon.svg" alt="Click to view pdf"></a>
                                                                                 </th>
                                                                                 <th class="tablesize">
-                                                                                    <img class="ppt" src="../1-visual_ressources/pptIcon.svg" alt="Click to view slide presentation">
+                                                                                    <a href="https://docs.google.com/presentation/d/1nWO6oQ89PrLvnzdyh2xenSsWTIfK-lB4FbLpewZTwEo/edit?usp=sharing"><img class="ppt" src="../1-visual_ressources/pptIcon.svg" alt="Click to view slide presentation"></a>
                                                                                 </th>
                                                                                 <th class="tablesize">
                                                                                     <img class="exitButton" src="../1-visual_ressources/xIcon.svg" alt="Click to close project window">
