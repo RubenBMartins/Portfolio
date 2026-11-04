@@ -506,3 +506,8 @@ div {
   height: calc(50% - 1%); 
   border: none;
 }
+.videowindow img {
+  width: calc(50% - 1%);  
+  height: calc(50% - 1%); 
+  border: none;
+}
