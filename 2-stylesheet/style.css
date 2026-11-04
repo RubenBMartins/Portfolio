@@ -374,6 +374,19 @@ div {
   display: inline-block;
 }
 
+.tablesizecandela {
+  width: 25%;
+  text-align: center;
+  padding: 5px;
+}
+
+.tablesizecandela img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  display: inline-block;
+}
+
 .blur-overlay {
   position: fixed;
   width: 200vw;
@@ -512,12 +525,12 @@ div {
 }
 
 .videowindow iframe {
-  width: calc(50% - 1%);  
-  height: calc(50% - 1%); 
+  width: calc(32% - 1%);  
+  height: calc(32% - 1%); 
   border: none;
 }
 .picturewindow img {
-  width: calc(50% - 1%);  
-  height: calc(50% - 1%); 
+  width: calc(24% - 1%);  
+  height: calc(24% - 1%); 
   border: none;
 }
