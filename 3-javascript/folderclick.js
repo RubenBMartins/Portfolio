@@ -236,7 +236,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                                                         </table>
                                                                         `;
                         break;
-                    case "P5":
+                    case "P7":
                         document.getElementById("projname").innerHTML = "<h1>2D game: Happy Hour</h1>";
                         document.getElementById("projdesc").innerHTML = `<p><b>This project consists of programming a video game using Java, using the JavaFX module, to bring it to life, in 3 weeks.</b></p>
                                                                         <table class="tablestyle">
