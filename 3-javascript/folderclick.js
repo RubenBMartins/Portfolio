@@ -124,10 +124,10 @@ document.addEventListener("DOMContentLoaded", function() {
                                                                         <table class="tablestyle">
                                                                             <tr>
                                                                                 <th class="tablesizecandela">
-                                                                                    <img id="P1" class="folder" src="../1-visual_ressources/candela1.jpg" alt="Machine Candela 1">
+                                                                                    <img src="../1-visual_ressources/candela1.jpg" alt="Machine Candela 1">
                                                                                 </th>
                                                                                 <th class="tablesizecandela">
-                                                                                    <img id="P1" class="folder" src="../1-visual_ressources/candela2.jpg" alt="Machine Candela 2">
+                                                                                    <img src="../1-visual_ressources/candela2.jpg" alt="Machine Candela 2">
                                                                                 </th>
                                                                             </tr>
                                                                             <tr>
@@ -210,6 +210,56 @@ document.addEventListener("DOMContentLoaded", function() {
                                                                                 <th class="tablesize">
                                                                                     GitHub
                                                                                 </th>
+                                                                                <th class="tablesize">
+                                                                                    Exit
+                                                                                </th>
+                                                                            </tr>
+                                                                        </table>
+                                                                        `;
+                        break;
+                    case "P6":
+                        document.getElementById("projname").innerHTML = "<h1>Smart Fridge</h1>";
+                        document.getElementById("projdesc").innerHTML = `<p><b>This project consists of brainstorming, for a theoretical company, a way to bring it back on the market, by releasing a smart fridge that has revolutionary, or uncommon features. It will be brought to fruition with professional documentation, mainly, a GANTT timeline!</b></p>
+                                                                        <p>This project is, currently, still in the making, no further information are currently available. Expect more information towards the project's end:</p>`
+                        document.getElementById("projfoot").innerHTML = `
+                                                                        <table class="tablestyle">
+                                                                            <tr>
+                                                                                <th class="tablesize">
+                                                                                    <img class="exitButton" src="../1-visual_ressources/xIcon.svg" alt="Click to close project window">
+                                                                                </th>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th class="tablesize">
+                                                                                    Exit
+                                                                                </th>
+                                                                            </tr>
+                                                                        </table>
+                                                                        `;
+                        break;
+                    case "P5":
+                        document.getElementById("projname").innerHTML = "<h1>2D game: Happy Hour</h1>";
+                        document.getElementById("projdesc").innerHTML = `<p><b>This project consists of programming a video game using Java, using the JavaFX module, to bring it to life, in 3 weeks.</b></p>
+                                                                        <table class="tablestyle">
+                                                                            <tr>
+                                                                                <th class="tablesizecandela">
+                                                                                    <img src="../1-visual_ressources/HappyHourPreview.jpg" alt="Preview of Happy Hour">
+                                                                                </th>
+                                                                            <tr>
+                                                                                <th class="tablesizecandela">
+                                                                                    Happy Hour
+                                                                                </th>
+                                                                            </tr>
+                                                                        </table>
+                                                                        <p>For this project, a teammate and I settled on a bar simulator, where you play as the bartender, serving drinks to customers. In this stylized pixel-art aesthetic, made by me.</p>
+                                                                        <p>Once released, more information will be given about the project, such as a download link on itch.io!</p>`;
+                        document.getElementById("projfoot").innerHTML = `
+                                                                        <table class="tablestyle">
+                                                                            <tr>
+                                                                                <th class="tablesize">
+                                                                                    <img class="exitButton" src="../1-visual_ressources/xIcon.svg" alt="Click to close project window">
+                                                                                </th>
+                                                                            </tr>
+                                                                            <tr>
                                                                                 <th class="tablesize">
                                                                                     Exit
                                                                                 </th>
