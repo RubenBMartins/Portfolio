@@ -242,7 +242,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                                                         <table class="tablestyle">
                                                                             <tr>
                                                                                 <th class="tablesizecandela">
-                                                                                    <img src="../1-visual_ressources/HappyHourPreview.jpg" alt="Preview of Happy Hour">
+                                                                                    <img src="../1-visual_ressources/HappyHourPreview.png" alt="Preview of Happy Hour">
                                                                                 </th>
                                                                             <tr>
                                                                                 <th class="tablesizecandela">
