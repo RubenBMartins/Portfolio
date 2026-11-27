@@ -220,6 +220,20 @@ document.addEventListener("DOMContentLoaded", function() {
                     case "P6":
                         document.getElementById("projname").innerHTML = "<h1>Smart Fridge</h1>";
                         document.getElementById("projdesc").innerHTML = `<p><b>This project consists of brainstorming, for a theoretical company, a way to bring it back on the market, by releasing a smart fridge that has revolutionary, or uncommon features. It will be brought to fruition with professional documentation, mainly, a GANTT timeline!</b></p>
+                                                                        <h2>Current direction</h2>
+                                                                        <p>The current direction for this project is to develop a fridge specifically made for professional workers:</p>
+                                                                        <ul>
+                                                                            <li>Adding censors to detect excessive temperature shifts, and whether or not the fridge is plugged in, to detect outages.</li>
+                                                                            <li>Standardized automatic expiration date (14 days for cheese products, for example)</li>
+                                                                            <li>A way to link the smart fridge to devices to notify remotely</li>
+                                                                            <li>Possible additions:
+                                                                                <ul>
+                                                                                    <li>An intuitive system to memorize what is put in the fridge with a barcode or a receipt.</li>
+                                                                                    <li>A pedal to elevate the fridge to be able to clean underneath</li>
+                                                                                </ul>
+                                                                            </li>
+                                                                        </ul>
+                                                                        <p>These ideas were brainstormed thanks to a discussion led with someone who works in a bakery. They were able to give us insight on what might be optimal, without being too convoluted.</p>
                                                                         <p>This project is, currently, still in the making, no further information are currently available. Expect more information towards the project's end:</p>`
                         document.getElementById("projfoot").innerHTML = `
                                                                         <table class="tablestyle">
