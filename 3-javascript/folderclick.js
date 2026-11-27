@@ -256,10 +256,16 @@ document.addEventListener("DOMContentLoaded", function() {
                                                                         <table class="tablestyle">
                                                                             <tr>
                                                                                 <th class="tablesize">
+                                                                                    <a href="https://github.com/RubenBMartins/2DGame-HappyHour"><img id="githubLink" src="../1-visual_ressources/contactIcon2.svg" alt="Access Github Repository"></a>
+                                                                                </th>
+                                                                                <th class="tablesize">
                                                                                     <img class="exitButton" src="../1-visual_ressources/xIcon.svg" alt="Click to close project window">
                                                                                 </th>
                                                                             </tr>
                                                                             <tr>
+                                                                                <th class="tablesize">
+                                                                                    GitHub
+                                                                                </th>
                                                                                 <th class="tablesize">
                                                                                     Exit
                                                                                 </th>
