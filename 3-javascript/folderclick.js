@@ -250,9 +250,9 @@ document.addEventListener("DOMContentLoaded", function() {
                                                                                 </th>
                                                                             </tr>
                                                                         </table>
-                                                                        <p>The player takes on the role of Melvin, a bartender at a chic bar. During a 5-minute evening shift, he must prepare and serve drinks to an ever-increasing number of demanding customers, handle payments, and kick out unwanted guests—especially costumed children who sneak up to the bar.
+                                                                        <p>The player takes on the role of Melvin, a bartender at a chic bar. During a 5-minute evening shift, he must prepare and serve drinks to an ever-increasing number of demanding customers, handle payments, and kick out unwanted guests—especially costumed children who sneak up to the bar.</p>
 
-                                                                        Game objective: Finish the evening with the highest possible score (sales + tips).</p>
+                                                                        <p><b>Game objective:</b> Finish the evening with the highest possible score (sales + tips).</p>
                                                                         <p> My teammate was assigned with the underlying logic of the game (behavior of elements in the game), while I was assigned with everything related to visuals (JavaFX, pixel art.)</p>
                                                                         <h2>How to play the game</h2>
                                                                         <p>Java 17 or later and Maven are required to run this project, and currently, the project can be run using mvn javafx:run command in a terminal window</p>
