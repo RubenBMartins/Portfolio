@@ -250,8 +250,120 @@ document.addEventListener("DOMContentLoaded", function() {
                                                                                 </th>
                                                                             </tr>
                                                                         </table>
-                                                                        <p>For this project, a teammate and I settled on a bar simulator, where you play as the bartender, serving drinks to customers. In this stylized pixel-art aesthetic, made by me.</p>
-                                                                        <p>Once released, more information will be given about the project, such as a download link on itch.io!</p>`;
+                                                                        <p>The player takes on the role of Melvin, a bartender at a chic bar. During a 5-minute evening shift, he must prepare and serve drinks to an ever-increasing number of demanding customers, handle payments, and kick out unwanted guests—especially costumed children who sneak up to the bar.
+
+                                                                        Game objective: Finish the evening with the highest possible score (sales + tips).</p>
+                                                                        <p> My teammate was assigned with the underlying logic of the game (behavior of elements in the game), while I was assigned with everything related to visuals (JavaFX, pixel art.)</p>
+                                                                        <h2>How to play the game</h2>
+                                                                        <p>Java 17 or later and Maven are required to run this project, and currently, the project can be run using mvn javafx:run command in a terminal window</p>
+                                                                        <table class="projectgridgeneral">
+                                                                            <tr>
+                                                                                <th class="projectgridbox" style="text-align: center;"><b>Action</b></th> 
+                                                                                <th class="projectgridbox" style="text-align: center;"><b>Control</b></th>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th class="projectgridbox">Pick up glass/ingredient/tool</th> 
+                                                                                <td class="projectgridbox">Left-click on element</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th class="projectgridbox">Serve customer</th> 
+                                                                                <td class="projectgridbox">Left-click on customer</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th class="projectgridbox">Kick out customer</th> 
+                                                                                <td class="projectgridbox">Right-click on customer</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th class="projectgridbox">Use recipe book</th> 
+                                                                                <td class="projectgridbox">Left-click on the book icon</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th class="projectgridbox">Settings</th> 
+                                                                                <td class="projectgridbox">Left-click on the gear icon</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th class="projectgridbox">Pause/resume</th> 
+                                                                                <td class="projectgridbox">Spacebar</td>
+                                                                            </tr>
+                                                                        </table>
+
+                                                                        <p>To prepare a drink, you must:</p>
+
+                                                                        <ul>
+                                                                            <li>Pick up the glass first (without a glass, the other items won’t work.)</li>
+                                                                            <li>Add the ingredients in the order listed in the recipe: alcohol, syrup, juice or soda, ice cubes, garnish.</li>
+                                                                            <li>For a cocktail: use the spoon (stirred) or the shaker (shaken) depending on the cocktail.</li>
+                                                                            <li>Click on the customer to serve them.</li>
+                                                                        </ul>
+
+                                                                        The recipes are in the recipe book. Each drink is rated on a scale of 10 (ingredients, order, glass, technique), and the customer pays **price × rating / 10**, plus a tip that depends on the rating, speed, and type of customer.
+
+
+
+                                                                        <h2>The customers</h2>
+                                                                        <p>In this game, you will find 5 types of customers:</p>
+                                                                        <table class="projectgridgeneral">
+                                                                            <tr>
+                                                                                <th class="projectgridbox" style="text-align: center;"><b>Customer</b></th> 
+                                                                                <th class="projectgridbox" style="text-align: center;"><b>Characteristics</b></th>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th class="projectgridbox">Regular</th> 
+                                                                                <td class="projectgridbox">None</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th class="projectgridbox">Hurried</th> 
+                                                                                <td class="projectgridbox">Short patience, speed bonus doubled</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th class="projectgridbox">Picky</th> 
+                                                                                <td class="projectgridbox">Short patience, speed bonus doubled</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th class="projectgridbox">Generous</th> 
+                                                                                <td class="projectgridbox">Long patience, tip and drinking time doubled</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th class="projectgridbox">Child</th> 
+                                                                                <td class="projectgridbox">Must never be served</td>
+                                                                            </tr>
+                                                                        </table>
+
+                                                                        <h2>Endings</h2>
+                                                                        <p>This game has two possible endings, with the end score shown in the top 10 leaderboard:</p>
+
+                                                                        <ul>
+                                                                            <li><b>Winning:</b> Serving clients until the bar closes (5 minutes)</li>
+                                                                            <li><b>Losing: 10 customers lost, or a child was served</b></li>
+
+                                                                        </ul>
+
+                                                                        <h2>Debug keys</h2>
+                                                                        <p>This game has debug keys to test out features:</p>
+                                                                        <table class="projectgridgeneral">
+                                                                            <tr>
+                                                                                <th class="projectgridbox" style="text-align: center;"><b>Key</b></th> 
+                                                                                <th class="projectgridbox" style="text-align: center;"><b>Action</b></th>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th class="projectgridbox">E</th> 
+                                                                                <td class="projectgridbox">Summons a child</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th class="projectgridbox">N</th> 
+                                                                                <td class="projectgridbox">Advances to the next gameplay phase</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th class="projectgridbox">O</th> 
+                                                                                <td class="projectgridbox">Summons a random customer</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th class="projectgridbox">A</th> 
+                                                                                <td class="projectgridbox">Skip to the last 15 seconds</td>
+                                                                            </tr>
+                                                                        </table>
+
+                                                                        `;
                         document.getElementById("projfoot").innerHTML = `
                                                                         <table class="tablestyle">
                                                                             <tr>

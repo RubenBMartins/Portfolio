@@ -534,3 +534,15 @@ div {
   height: calc(24% - 1%); 
   border: none;
 }
+
+.projectgridgeneral {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.projectgridbox {
+  border: 2px solid #000000;
+  text-align: left;
+  padding: 8px;
+}
